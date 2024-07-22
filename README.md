@@ -31,7 +31,7 @@ Vítejte v repozitáři webové stránky "Your Travel Assistant". Tento projekt 
 ## Struktura projektu
 
 - `index.html`: Hlavní HTML soubor stránky obsahující strukturu a obsah.
-- `style.css`: Stylování stránky pomocí CSS.
+- `css/style.css`: Stylování stránky pomocí CSS.
 - `script.js`: Interaktivní prvky a funkce napsané v JavaScriptu.
 - `images/`: Obrázky používané na webu.
 - `favicon/`: Ikony používané na webu.
