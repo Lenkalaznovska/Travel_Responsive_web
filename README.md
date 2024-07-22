@@ -35,3 +35,4 @@ Vítejte v repozitáři webové stránky "Your Travel Assistant". Tento projekt 
 - `script.js`: Interaktivní prvky a funkce napsané v JavaScriptu.
 - `images/`: Obrázky používané na webu.
 - `favicon/`: Ikona používaná na webu.
+- `icons/`: Obrázky ikon používané na webu.
