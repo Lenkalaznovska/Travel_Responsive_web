@@ -1,38 +1,38 @@
 # Your Travel Assistant
 
-Vítejte v repozitáři webové stránky "Your Travel Assistant". Tento projekt je webová aplikace navržená pro prezentaci informací o dobrodružných cestách a turistických aktivitách.
+Welcome to the "Your Travel Assistant" website repository. This project is a web application designed to showcase information about adventurous trips and tourist activities. You can view the live version of the site [here](https://lenkalaznovska.github.io/Travel_Responsive_web/).
 
-## Obsah
+## Table of Contents
 
-1. [Popis](#popis)
-2. [Použité technologie](#použité-technologie)
-3. [Struktura projektu](#struktura-projektu)
+1. [Description](#description)
+2. [Technologies Used](#technologies-used)
+3. [Project Structure](#project-structure)
 
-## Popis
+## Description
 
-"Your Travel Assistant" je webová aplikace určená k prezentaci informací o různých turistických aktivitách a dobrodružstvích. Na této stránce najdete:
+"Your Travel Assistant" is a web application intended to present information about various tourist activities and adventures. On this page, you will find:
 
-- **Navigační menu:** Uživatelé mohou navigovat mezi různými sekcemi stránky jako O nás, Co děláme, Naše výlety, Kam chcete jet a Recenze.
-- **Responzivní design:** Stránka je optimalizována pro zobrazení na různých zařízeních včetně mobilních telefonů a tabletů.
-- **Interaktivní prvky:** Menu se přepíná v mobilním zobrazení a stránka obsahuje různé vizuální efekty.
+- **Navigation Menu:** Users can navigate between different sections of the site such as About Us, What We Do, Our Trips, Where You Want to Go, and Reviews.
+- **Responsive Design:** The page is optimized for viewing on various devices, including mobile phones and tablets.
+- **Interactive Elements:** The menu toggles in mobile view and the page includes various visual effects.
 
-## Použité technologie
+## Technologies Used
 
 ### Frontend
 
-- **HTML5:** Struktura webové stránky.
-- **CSS3:** Stylování webové stránky.
-- **JavaScript:** Interaktivní prvky a animace.
+- **HTML5:** Structure of the website.
+- **CSS3:** Styling of the website.
+- **JavaScript:** Interactive elements and animations.
 
-### Vývojové nástroje
+### Development Tools
 
-- **Font Awesome:** Ikony používané na webové stránce (není součástí aktuálního projektu, ale může být přidán podle potřeby).
+- **Font Awesome:** Icons used on the website (not part of the current project but can be added if needed).
 
-## Struktura projektu
+## Project Structure
 
-- `index.html`: Hlavní HTML soubor stránky obsahující strukturu a obsah.
-- `css/style.css`: Stylování stránky pomocí CSS.
-- `script.js`: Interaktivní prvky a funkce napsané v JavaScriptu.
-- `images/`: Obrázky používané na webu.
-- `favicon/`: Ikona používaná na webu.
-- `icons/`: Obrázky ikon používané na webu.
+- `index.html`: The main HTML file containing the structure and content of the page.
+- `css/style.css`: Styling for the page using CSS.
+- `script.js`: Interactive elements and functionality written in JavaScript.
+- `images/`: Images used on the website.
+- `favicon/`: Icon used on the website.
+- `icons/`: Icon images used on the website.
