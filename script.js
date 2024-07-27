@@ -1,14 +1,15 @@
-// Událost "DOMContentLoaded" se aktivuje, když je celý HTML dokument načtený a zpracovaný.
+// The "DOMContentLoaded" event is fired when the entire HTML document has been fully loaded and parsed.
 document.addEventListener("DOMContentLoaded", () => {
-  // Najde prvek s třídou "hamburger-menu" a uloží ho do proměnné "hamburgerMenu".
+  // Find the element with the class "hamburger-menu" and store it in the variable "hamburgerMenu".
   const hamburgerMenu = document.querySelector(".hamburger-menu");
   
-  // Najde seznam odkazů v navigaci (prvek <ul> uvnitř <nav>) a uloží ho do proměnné "navLinks".
+  // Find the list of navigation links (the <ul> element inside <nav>) and store it in the variable "navLinks".
   const navLinks = document.querySelector("nav ul");
 
-  // Přidá událost "click" na prvek "hamburgerMenu".
+  // Add a "click" event listener to the "hamburgerMenu" element.
   hamburgerMenu.addEventListener("click", () => {
-    // Přepne třídu "show" na prvek "navLinks".
+    // Toggle the "show" class on the "navLinks" element.
+    // This will show or hide the navigation menu depending on its current state.
     navLinks.classList.toggle("show");
   });
 });
