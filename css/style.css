@@ -1,13 +1,13 @@
-/* Globální proměnné */
+/* Global Variables */
 :root {
-  --primary-bg-color: #33292a; /* Hlavní barva pozadí */
-  --primary-text-color: #fff; /* Hlavní barva textu */
-  --accent-color: #e9877b; /* Akcentní barva */
-  --secondary-bg-color: #f2f2f2; /* Sekundární barva pozadí */
-  --secondary-text-color: #644b4f; /* Sekundární barva textu */
-  --font-family: "Roboto", sans-serif; /* Hlavní font */
-  --font-size-large: 40px; /* Velikost písma velkých nadpisů */
-  --font-size-medium: 20px; /* Velikost písma středních nadpisů */
+  --primary-bg-color: #33292a; /* Main background color */
+  --primary-text-color: #fff; /* Main text color */
+  --accent-color: #e9877b; /* Accent color */
+  --secondary-bg-color: #f2f2f2; /* Secondary background color */
+  --secondary-text-color: #644b4f; /* Secondary text color */
+  --font-family: "Roboto", sans-serif; /* Main font */
+  --font-size-large: 40px; /* Font size for large headings */
+  --font-size-medium: 20px; /* Font size for medium headings */
 }
 
 * {
@@ -18,11 +18,9 @@
   font-family: var(--font-family);
 }
 
-/* Navigace */
+/* Navigation */
 header {
-  background-color: var(
-    --primary-bg-color
-  );
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-size: 20px;
 }
@@ -58,7 +56,7 @@ nav a:hover {
   height: 30px;
 }
 
-/* Hlavní sekce (Hero Section) */
+/* Main Section (Hero Section) */
 .hero-container {
   position: relative;
   text-align: center;
@@ -89,7 +87,7 @@ nav a:hover {
   text-shadow: 2px 2px 4px #000000;
 }
 
-/* Sekce O nás (About Us Section) */
+/* About Us Section */
 .container-aboutus {
   display: flex;
   justify-content: center;
@@ -117,12 +115,10 @@ nav a:hover {
   width: 50%;
 }
 
-/* Sekce Co děláme (What We Do Section) */
+/* What We Do Section */
 .container-whatwedo {
   padding: 50px;
-  background-color: var(
-    --primary-bg-color
-  );
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -155,12 +151,10 @@ nav a:hover {
   margin-top: 10px;
 }
 
-/* Sekce Naše výlety (Our Trips Section) */
+/* Our Trips Section */
 .container-ourtrips {
   padding: 50px;
-  background-color: var(
-    --secondary-bg-color
-  );
+  background-color: var(--secondary-bg-color);
   text-align: center;
 }
 
@@ -188,12 +182,10 @@ nav a:hover {
   object-fit: cover;
 }
 
-/* Sekce Kam chcete jet (Where Do You Want to Go Section) */
+/* Where Do You Want to Go Section */
 .container-wheredoyouwant {
   padding: 50px;
-  background-color: var(
-    --secondary-text-color
-  );
+  background-color: var(--secondary-text-color);
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -211,9 +203,7 @@ nav a:hover {
 .contactus-button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: var(
-    --primary-text-color
-  );
+  background-color: var(--primary-text-color);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -222,12 +212,10 @@ nav a:hover {
 }
 
 .contactus-button:hover {
-  background-color: var(
-    --accent-color
-  );
+  background-color: var(--accent-color);
 }
 
-/* Sekce Recenze (Reviews Section) */
+/* Reviews Section */
 .reviews-container {
   width: 70%;
   margin: 0 auto;
@@ -259,7 +247,7 @@ nav a:hover {
   margin: 20px auto;
 }
 
-/* Sekce Fotky (Photo Section) */
+/* Photo Section */
 .photo-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -270,12 +258,10 @@ nav a:hover {
   height: 100%;
 }
 
-/* Sekce Patička (Footer Section) */
+/* Footer Section */
 footer {
   padding: 20px;
-  background-color: var(
-    --primary-bg-color
-  );
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   text-align: center;
 }
@@ -298,7 +284,7 @@ footer a {
   font-weight: bold;
 }
 
-/* Responsivní styly (Responsive styles) */
+/* Responsive Styles */
 @media (max-width: 768px) {
   nav ul {
     display: none;
